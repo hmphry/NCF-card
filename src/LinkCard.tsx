@@ -1,9 +1,9 @@
 import arrow from './assets/arrow-right-solid.svg'
 
 interface linkCardProps {
-    service: String;
-    url: String;
-    icon: unknown;
+    service: string;
+    url: string;
+    icon: any;
 }
 
 function LinkCard(props:linkCardProps) {
